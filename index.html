@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <img class="menu__close-icon" src="/close.svg" alt="close-icon" />
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link" href="">ПРО МЕНЯ</a></li>
+        <li class="menu__item"><a class="menu__link" href="#experience">МОЙ ОПЫТ</a></li>
+        <li class="menu__item"><a class="menu__link" href="">МОИ НАВЫКИ</a></li>
+        <li class="menu__item"><a class="menu__link" href="">ПРАЙС-ЛИСТ</a></li>
+        <li class="menu__item"><a class="menu__link" href="#follow-me">КОНТАКТЫ</a></li>
+      </ul>
+      <div class="menu__social-networks">
+        <img src="/social_github_icon.png" alt="github" />
+        <img src="/instagram_social.png" alt="instagram" />
+        <img src="/media_facebook_logo.png" alt="facebook" />
+      </div>
+    </nav>
+
+    <section class="promo">
+      <div class="wrapper-networks">
+        <div class="social-networks">
+          <p>Социальные сети</p>
+          <div class="social-networks__line"></div>
+          <img src="/social_github_icon.png" alt="github" />
+          <img src="/instagram_social.png" alt="instagram" />
+          <img src="/media_facebook_logo.png" alt="facebook" />
+        </div>
+      </div>
+
+      <div class="wrapper-grid">
+        <header class="promo-box">
+          <div class="promo-box__circle circle"></div>
+          <p class="promo-box__name">Меня зовут Александра Смит</p>
+          <p class="promo-box__job">Я web-разработчик из города Москва</p>
+          <div class="promo-box__buttons">
+            <button class="btn btn-primary">Портфолио</button>
+            <button class="btn">Про меня</button>
+          </div>
+        </header>
+        <div class="box-img">
+          <img class="img" src="/promo-logo.png" alt="" />
+        </div>
+        <label class="burger">
+          <span></span>
+        </label>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="experience__header">
+        <div class="experience__header-circle circle"></div>
+        <h3>Опыт</h3>
+        <h2 class="experience__title">Чем я буду полезна</h2>
+        <div class="experience__title-divider divider"></div>
+      </div>
+
+      <div class="experience__content">
+        <div class="experience__column experience__column--education">
+          <div class="experience__column-circle circle"></div>
+          <h3 class="experience__column-title">Образование</h3>
+          <div class="experience__item">
+            <div class="experience__item-icon">
+              <div class="experience__item-circle circle"></div>
+              <img src="/university.svg" alt="" />
+            </div>
+            <div class="experience__item-content">
+              <h4 class="experience__item-title">МГТУ им. Н. Э. Баумана</h4>
+              <p class="experience__item-subtitle">Диплом магистра | Москва (2014–2020)</p>
+            </div>
+            <div class="experience__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
+            </div>
+          </div>
+
+          <div class="experience__item">
+            <div class="experience__item-icon">
+              <div class="experience__item-circle circle"></div>
+              <img src="/courses.svg" alt="" />
+            </div>
+            <div class="experience__item-content">
+              <h4 class="experience__item-title">Udemy</h4>
+              <p class="experience__item-subtitle">Курсы по Web-разработке</p>
+            </div>
+            <div class="experience__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
+            </div>
+          </div>
+        </div>
+        <div class="experience__column experience__column--work">
+          <div class="experience__column-circle circle"></div>
+          <h3 class="experience__column-title">Опыт работы</h3>
+
+          <div class="experience__item">
+            <div class="experience__item-icon">
+              <div class="experience__item-circle circle"></div>
+              <img src="/developer.svg" alt="" />
+            </div>
+            <div class="experience__item-content">
+              <h4 class="experience__item-title">Front-End Developer</h4>
+              <p class="experience__item-subtitle">EPAM | Москва (2018–2019)</p>
+            </div>
+            <div class="experience__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
+            </div>
+          </div>
+
+          <div class="experience__item">
+            <div class="experience__item-icon">
+              <div class="experience__item-circle circle"></div>
+              <img src="/designer.svg" alt="" />
+            </div>
+            <div class="experience__item-content">
+              <h4 class="experience__item-title">UI/UX Designer</h4>
+              <p class="experience__item-subtitle">Squad Team | Москва (2018)</p>
+            </div>
+            <div class="experience__item-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="follow-me" id="follow-me">
+      <div class="follow-me__img">
+        <img src="/photo-me.png" alt="photo-me" />
+      </div>
+
+      <div class="follow-me__info">
+        <div class="follow-me__info-wrapper-title">
+          <div class="follow-me__info-circle circle"></div>
+          <h3 class="follow-me__info-title">Контакты</h3>
+        </div>
+        <div>
+          <h3 class="follow-me__info-subtitle">Свяжитесь со мной</h3>
+          <div class="divider"></div>
+        </div>
+        
+        <p class="follow-me__info-paragraf">Любым удобным для вас способом:</p>
+        <div class="follow-me__info-social-network">
+          <a href="https://facebook.com/">
+            <img class="follow-me__info-img" src="/media_facebook_logo.png" alt="facebook" />
+          </a>
+          <!-- <img class="follow-me__info-img" src="/media_facebook_logo.png" alt="facebook" /> -->
+          <img class="follow-me__info-img" src="/telegram.svg" alt="telegram" />
+          <img class="follow-me__info-img" src="/instagram_social.png" alt="instagram" />
+
+        </div>
+        <p class="follow-me__info-paragraf">Или оставьте ваши данные и я сама вам напишу:</p>
+        
+        <form class="form" id="form">
+          <div class="form__group form__group-name">
+              <label for="name" class="form__label">Ваше имя</label>
+              <input type="text" id="name" name="name" class="form__input form__input-name" placeholder="Иван">
+          </div>
+          <div class="form__group form__group-email">
+              <label for="email" class="form__label">Ваша почта</label>
+              <input type="email" id="email" name="email" class="form__input form__input-email">
+          </div>
+          <div class="form__group form__group--textarea">
+              <label for="message" class="form__label">Ваше сообщение</label>
+              <textarea id="message" name="message" class="form__textarea"></textarea>
+          </div>
+      </form>
+      <button form="form" class="form__btn  btn btn-primary" type="submit">Отправить сообщение</button>
+        
+      </div>
+    </section>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
