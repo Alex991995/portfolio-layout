@@ -22,14 +22,17 @@ body {
   position: absolute;
   left: -55px;
   top: 50%;
+  z-index: 20;
 }
 
 .wrapper-grid {
+ 
   display: grid;
   align-items: center;
   position: relative;
   overflow: hidden;
-  grid-template-columns: 530px minmax(auto, 750px);
+  grid-template-columns: minmax(auto, 530px) minmax(auto, 600px);
+  // grid-template-columns: 1fr 1fr;
   justify-content: center;
 
 }

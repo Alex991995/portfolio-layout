@@ -1,5 +1,6 @@
 import '../styles/main.scss';
 import { validateForm } from './validate';
+import { nthFibo } from './fibonachi';
 
 const menu = document.querySelector('.menu')
 const closeIcon = document.querySelector('.menu__close-icon')
@@ -8,8 +9,6 @@ const form = document.querySelector('#form')
 
 form.addEventListener('submit', function(event) {
   event.preventDefault()
-
-
   const resultFromValidation = validateForm(this)
 
   if(resultFromValidation){
@@ -53,6 +52,7 @@ window.addEventListener('click', function(e) {
     menu.classList.remove('menu_active')
     promo.classList.remove('promo_opacity')
   }
-
 })
+
+console.log(nthFibo(4))
 

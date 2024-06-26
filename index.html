@@ -17,9 +17,17 @@
         <li class="menu__item"><a class="menu__link" href="#follow-me">КОНТАКТЫ</a></li>
       </ul>
       <div class="menu__social-networks">
-        <img src="/social_github_icon.png" alt="github" />
-        <img src="/instagram_social.png" alt="instagram" />
-        <img src="/media_facebook_logo.png" alt="facebook" />
+        
+        <a href="https://github.com/"  target="_blank">
+          <img src="/github-svg.svg" alt="github" />
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <img class="follow-me__info-img" src="/instagram_social.png" alt="instagram" />
+        </a>
+        <a href="https://facebook.com/" target="_blank">
+          <img class="follow-me__info-img" src="/media_facebook_logo.png" alt="facebook" />
+        </a>
       </div>
     </nav>
 
@@ -28,9 +36,19 @@
         <div class="social-networks">
           <p>Социальные сети</p>
           <div class="social-networks__line"></div>
-          <img src="/social_github_icon.png" alt="github" />
-          <img src="/instagram_social.png" alt="instagram" />
-          <img src="/media_facebook_logo.png" alt="facebook" />
+
+          <a href="https://github.com/"  target="_blank">
+            <img src="/github-svg.svg" alt="github" />
+          </a>
+          
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="follow-me__info-img" src="/instagram_social.png" alt="instagram" />
+          </a>
+
+          <a href="https://facebook.com/" target="_blank">
+            <img class="follow-me__info-img" src="/media_facebook_logo.png" alt="facebook" />
+          </a>
+
         </div>
       </div>
 
@@ -146,35 +164,48 @@
           <h3 class="follow-me__info-subtitle">Свяжитесь со мной</h3>
           <div class="divider"></div>
         </div>
-        
+
         <p class="follow-me__info-paragraf">Любым удобным для вас способом:</p>
         <div class="follow-me__info-social-network">
-          <a href="https://facebook.com/">
+
+          <a href="https://facebook.com/" target="_blank">
             <img class="follow-me__info-img" src="/media_facebook_logo.png" alt="facebook" />
           </a>
-          <!-- <img class="follow-me__info-img" src="/media_facebook_logo.png" alt="facebook" /> -->
-          <img class="follow-me__info-img" src="/telegram.svg" alt="telegram" />
-          <img class="follow-me__info-img" src="/instagram_social.png" alt="instagram" />
+
+          <a href="https://web.telegram.org/k/" target="_blank">
+            <img class="follow-me__info-img" src="/telegram.svg" alt="telegram" />
+          </a>
+
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="follow-me__info-img" src="/instagram_social.png" alt="instagram" />
+          </a>
 
         </div>
         <p class="follow-me__info-paragraf">Или оставьте ваши данные и я сама вам напишу:</p>
-        
+
         <form class="form" id="form">
           <div class="form__group form__group-name">
-              <label for="name" class="form__label">Ваше имя</label>
-              <input type="text" id="name" name="name" class="form__input form__input-name" placeholder="Иван">
+            <label for="name" class="form__label">Ваше имя</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form__input form__input-name"
+              placeholder="Иван"
+            />
           </div>
           <div class="form__group form__group-email">
-              <label for="email" class="form__label">Ваша почта</label>
-              <input type="email" id="email" name="email" class="form__input form__input-email">
+            <label for="email" class="form__label">Ваша почта</label>
+            <input type="email" id="email" name="email" class="form__input form__input-email" />
           </div>
           <div class="form__group form__group--textarea">
-              <label for="message" class="form__label">Ваше сообщение</label>
-              <textarea id="message" name="message" class="form__textarea"></textarea>
+            <label for="message" class="form__label">Ваше сообщение</label>
+            <textarea id="message" name="message" class="form__textarea"></textarea>
           </div>
-      </form>
-      <button form="form" class="form__btn  btn btn-primary" type="submit">Отправить сообщение</button>
-        
+        </form>
+        <button form="form" class="form__btn btn btn-primary" type="submit">
+          Отправить сообщение
+        </button>
       </div>
     </section>
 
